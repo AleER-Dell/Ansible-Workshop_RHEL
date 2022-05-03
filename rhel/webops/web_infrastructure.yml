@@ -50,7 +50,7 @@
       state: started
 
   - name: install nodejs
-    dnf:
+    yum:
       name: '@nodejs/development'
       state: present
 
